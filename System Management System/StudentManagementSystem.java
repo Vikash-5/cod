@@ -16,12 +16,13 @@ public class StudentManagementSystem
       System.out.println("Added sucessfully");
   }
   public void searchstudent(Scanner g){
-    System.out.println("Enter the roll no:");
     g.nextLine();
+    System.out.println("Enter the roll no:");
+    String h=g.nextLine();
     boolean t=false;
     for(Student c: st)
     {
-        if(c.roll.equalsIgnoreCase(g.nextLine()))
+        if(c.roll.equalsIgnoreCase(h))
         {
             c.displayId();
             t=true;
