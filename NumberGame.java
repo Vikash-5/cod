@@ -37,14 +37,14 @@ public class Game{
       GameConcept obj=new GameConcept();
       score=obj.play(a,score,lr,ur,s);
       String cl=s.next();
-      while(cl.equals("yes")){
-       if(cl.equals("yes"))
+      while(cl.equalsIgnoreCase("yes")){
+       if(cl.equalsIgnoreCase("yes"))
         { score=obj.play(a,score,lr,ur,s);
           String v=s.next();
           cl=v;       
         }
       }
-      if (cl.equals("no"))
+      if (cl.equalsIgnoreCase("no"))
          System.out.println("Thanks for Playing");
       s.close();
     }
