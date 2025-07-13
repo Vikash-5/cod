@@ -23,7 +23,7 @@ class details
     }
    
 }
-public class GradeCalc {
+public class StudentGradeCalculator {
     public static void main(String arg[])
     {
         int m=0;
