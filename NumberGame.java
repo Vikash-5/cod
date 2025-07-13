@@ -28,7 +28,7 @@ class GameConcept{
       return score;
   }
 }   
-public class Game{
+public class NumberGame{
  public static void main(String arg[])
     {
       Scanner s=new Scanner(System.in);
