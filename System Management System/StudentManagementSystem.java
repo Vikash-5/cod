@@ -6,11 +6,11 @@ public class StudentManagementSystem
   public void  addstudent(Scanner g)
   {   g.nextLine();
       System.out.println("Enter Student name:");
-      String n=g.nextLine();
+      String n=g.nextLine().toUpperCase();
       System.out.println("Enter Student roll no:");
       String r=g.nextLine();
       System.out.println("Enter Student grade:");
-      String G=g.nextLine();
+      String G=g.nextLine().toUpperCase();
       Student s=new Student(n,r,G);
       st.add(s);
       System.out.println("Added sucessfully");
