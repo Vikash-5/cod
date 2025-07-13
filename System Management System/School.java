@@ -3,7 +3,7 @@ public class School{
     public static void main(String[] args) {
       Scanner g=new Scanner(System.in);
       int c;
-      SMS s=new SMS();
+      StudentManagementSystem s=new StudentManagementSystem();
       do
        {System.out.println("------Menu------");
        System.out.println("1.Add student\n2.search student\n3.Display all student\n4.Remove student\n5.Exit");
